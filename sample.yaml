@@ -1,7 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  labels:
-    clusterName: ${CLUSTER_NAME}
-    tag/someOtherLabel: test-${CLUSTER_NAME}
   name: sample-namespace
